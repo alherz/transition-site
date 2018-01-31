@@ -2,10 +2,30 @@ body{
     background-color: slategrey;
 }
 
-#flexBodyContainer {
+.flexBodyContainer {
     display: flex;
+}
+
+#pageHeader {
+    position: absolute;
+    width: 100%;
 }
 
 #pageHeader > div{
     display: inline-block;
+}
+
+#headerHamburger {
+    right: 0;
+    top: 0;
+}
+
+#mainContent {
+    display: flex;
+}
+
+#mainContent > div {
+    width: 100px;
+    margin: 10px;
+    background-color: sandybrown;
 }
